@@ -1,12 +1,7 @@
-package main
+package solution
 
-import (
-	"fmt"
+import "github.com/kyokomi/emoji"
 
-	"github.com/kyokomi/emoji"
-)
-
-func main() {
-	helloWorld := emoji.Sprint("Hello :world_map:!")
-	fmt.Println(helloWorld)
+func GetMessage() string {
+	return emoji.Sprint("Hello :world_map:!")
 }
